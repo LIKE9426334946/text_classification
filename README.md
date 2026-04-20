@@ -13,7 +13,7 @@ python predict.py
 
 # kaggle运行
 %cd /kaggle/working  
-!rm -rf /kaggle/working/text_classification
-!git clone https://github.com/LIKE9426334946/text_classification.git
-%cd /kaggle/working/text_classification
+!rm -rf /kaggle/working/text_classification  
+!git clone https://github.com/LIKE9426334946/text_classification.git  
+%cd /kaggle/working/text_classification  
 !python3 train.py
